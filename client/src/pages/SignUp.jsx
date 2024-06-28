@@ -48,7 +48,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className='text-white bg-white fixed h-screen overflow-hidden w-screen flex justify-center  bg-cover bg-no-repeat py-12'
+    <div className='text-white bg-white overflow-y-scroll overflow-x-hidden h-screen w-screen flex justify-center  bg-cover bg-no-repeat py-12'
     style={{backgroundImage: 'url(https://urban-homes.s3.ap-south-1.amazonaws.com/sign+bg.png)'}}>
 
       <div className="bg-white border border-s1ate-400 rounded-md px-8 shadow-2xl backdrop-filter backdrop-blur-2xl bg-opacity-40 relative py-2 h-[520px]">

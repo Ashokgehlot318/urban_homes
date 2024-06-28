@@ -171,7 +171,7 @@ const Profile = () => {
         placeholder='password' 
         id='password' 
         onChange={changeHandler}
-        className='border p-3 rounded-lg text-black`'
+        className='border p-3 rounded-lg text-black'
         autocomplete="current-password"></input>
 
         <button 

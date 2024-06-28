@@ -63,7 +63,7 @@ const SignIn = () => {
   
   return (
     // bg-[#F1F5F1]
-    <div className='text-white   fixed h-screen overflow-hidden w-screen flex justify-center  bg-cover bg-no-repeat py-20' 
+    <div className='text-white   fixed h-screen overflow-x-hidden w-screen flex justify-center  bg-cover bg-no-repeat py-20  overflow-y-scroll' 
     style={{backgroundImage: 'url(https://urban-homes.s3.ap-south-1.amazonaws.com/sign+bg.png)'}}>
       
       <div className="bg-white border border-s1ate-400 rounded-md px-8 shadow-2xl backdrop-filter backdrop-blur-3xl bg-opacity-70 relative py-2 h-[450px]">
